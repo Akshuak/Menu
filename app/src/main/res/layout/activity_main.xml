@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+     android:background="#8A18FFFF"                  >
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5pt"
+        android:layout_marginTop="10pt"
+        android:layout_marginRight="5pt"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/btnStress"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#358958"
+            android:text="Stress"
+            android:textColor="@color/white"
+            android:textSize="12pt"></Button>
+
+        <Button
+            android:id="@+id/btnFood"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#358958"
+            android:text="Food"
+            android:textColor="@color/white"
+            android:textSize="12pt"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5pt"
+        android:layout_marginTop="10pt"
+        android:layout_marginRight="5pt"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnRun"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Running"
+            android:textSize="10pt"
+            android:background="#358958"></Button>
+
+        <Button
+            android:id="@+id/btnHeart"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="#358958"
+            android:text="Heart"
+            android:textColor="@color/white"
+            android:textSize="12pt"></Button>
+        >
+    </LinearLayout>
+    ></LinearLayout>
